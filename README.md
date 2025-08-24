@@ -62,7 +62,8 @@ Contiene el listado de afiliados al régimen subsidiado, con variables similares
   - *Retos:* Inconsistencias en asignación de nivel Sisbén, campos vacíos en condición del beneficiario y posibles rezagos en la actualización por municipio.  
 
 - **Vía de acceso:**  
- [Portal de Datos Abiertos del Gobierno Nacional – Dataset Régimen Subsidiado (BDUA)](https://www.datos.gov.co/Salud-y-Protecci-n-Social/Poblaci-n-Base-de-Datos-nica-de-Afiliados-BDUA-del/d7a5-cnra/about_data).(API y descarga directa).  
+  - [Página del dataset en Datos Abiertos](https://www.datos.gov.co/Salud-y-Protecci-n-Social/Poblaci-n-Base-de-Datos-nica-de-Afiliados-BDUA-del/d7a5-cnra)  
+  - [API pública en JSON](https://www.datos.gov.co/resource/d7a5-cnra.json) 
 
 ---
 
