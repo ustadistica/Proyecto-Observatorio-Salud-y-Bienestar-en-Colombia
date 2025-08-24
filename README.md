@@ -43,8 +43,8 @@ Contiene el listado de afiliados al sistema de salud bajo el régimen contributi
   - *Fortalezas:* Cobertura nacional, granularidad por municipio, permite análisis detallados por EPS y tipo de afiliado.  
   - *Retos:* Posibles inconsistencias en estados de afiliado (ej. personas fallecidas aún como activas), duplicados por migraciones de EPS y diferencias en codificación de variables.  
 
-- **Vía de acceso, API:** 
- [https://www.datos.gov.co/api/v3/views/d7a5-cnra/query.json](https://www.datos.gov.co/api/v3/views/d7a5-cnra/query.json) 
+- **Vía de acceso:**  
+  [Portal de Datos Abiertos – Régimen Contributivo](https://www.datos.gov.co/Salud-y-Protecci-n-Social/Poblaci-n-Base-de-Datos-nica-de-Afiliados-BDUA-del/tq4m-hmg2/about_data)  (API y descarga directa)
 
 ---
 
@@ -61,8 +61,8 @@ Contiene el listado de afiliados al régimen subsidiado, con variables similares
   - *Fortalezas:* Información clave para la caracterización socioeconómica y la identificación de población en condiciones de vulnerabilidad.  
   - *Retos:* Inconsistencias en asignación de nivel Sisbén, campos vacíos en condición del beneficiario y posibles rezagos en la actualización por municipio.  
 
-- **Vía de acceso vía API:**  
-  [https://www.datos.gov.co/api/v3/views/d7a5-cnra/query.json](https://www.datos.gov.co/api/v3/views/d7a5-cnra/query.json)  
+- **Vía de acceso:**  
+  [Portal de Datos Abiertos – Régimen Subsidiado](https://www.datos.gov.co/Salud-y-Protecci-n-Social/Poblaci-n-Base-de-Datos-nica-de-Afiliados-BDUA-del/d7a5-cnra/about_data)  (API y descarga)
 ---
 
 ## 3. Análisis Preliminar
