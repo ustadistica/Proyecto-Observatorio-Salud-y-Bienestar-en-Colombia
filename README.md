@@ -71,7 +71,7 @@ Contiene el listado de afiliados al régimen subsidiado, con variables similares
 - **Vía de acceso:**  
  [Portal de Datos Abiertos – Régimen Subsidiado](https://www.datos.gov.co/Salud-y-Protecci-n-Social/Poblaci-n-Base-de-Datos-nica-de-Afiliados-BDUA-del/d7a5-cnra)    (API y descarga directa)
 ---
-## 4. Informe de Viabilidad
+## 3. Informe de Viabilidad
 - **Factibilidad de uso:** Alta
 - **Cobertura:** Ambos datasets son de alto valor estratégico, ya que consolidan prácticamente toda la población afiliada al sistema de salud.
 
