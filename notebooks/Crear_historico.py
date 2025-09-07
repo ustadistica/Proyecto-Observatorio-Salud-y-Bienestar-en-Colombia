@@ -47,3 +47,5 @@ df_out.to_csv(OUT_CSV, index=False)
 
 print(f"Histórico actualizado en: {OUT_CSV.resolve()}")
 print(f"Filas totales: {len(df_out)} | Columnas: {len(df_out.columns)}")
+
+###
