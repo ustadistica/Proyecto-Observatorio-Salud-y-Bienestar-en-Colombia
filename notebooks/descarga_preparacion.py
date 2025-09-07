@@ -7,8 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1Jk8b0rC8z9uUYww2p3GLTdRM5Xb24gfl
 """
 
-!pip install sodapy
-
 from sodapy import Socrata
 import pandas as pd
 from datetime import datetime
@@ -29,7 +27,7 @@ fecha_actualizacion = datetime.fromtimestamp(fecha_actualizacion).strftime("%Y-%
 print("📅 Fecha última actualización en datos.gov.co:", fecha_actualizacion)
 
 # 3. Descargar toda la base con paginación
-chunk_size = 5000000
+chunk_size = 50000
 offset = 0
 all_data = []
 
@@ -146,10 +144,10 @@ print(f"Repetidos: {num_total - num_unicos}")
 df_union = df_union.drop_duplicates(subset=["hash_sha256_num"])
 
 print("Shape after removing duplicates:", df_union.shape)
-display(df_union.head())
+print(df_union.head())
 
 df_union['id_fecha'] = df_union['hash_sha256_num'].astype(str) + "_" + df_union['Fecha de actualización'].astype(str)
-display(df_union.head())
+print(df_union.head())
 
 
 
