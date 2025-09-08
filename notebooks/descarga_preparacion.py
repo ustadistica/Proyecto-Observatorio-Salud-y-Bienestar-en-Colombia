@@ -121,19 +121,8 @@ print(f"Repetidos: {num_total - num_unicos}")
 df_union = df_union.drop_duplicates(subset=["hash_sha256_num"])
 
 print("Shape after removing duplicates:", df_union.shape)
-display(df_union.head())
+print(df_union.head())
 
 df_union['id_fecha'] = df_union['hash_sha256_num'].astype(str) + "_" + df_union['Fecha de actualización'].astype(str)
-display(df_union.head())
+print(df_union.head())
 
-
-from google.colab import drive
-# Montamos el Drive
-drive.mount('/content/drive')
-
-
-# Definir la ruta donde guardarás tu base final
-ruta_guardado = "/content/drive/MyDrive/df_union_actualizado.csv"
-# Guardar como CSV (se sobreescribe cada vez que corras el código)
-df_union.to_csv(ruta_guardado, index=False, encoding="utf-8-sig")
-print(f"Base guardada en: {ruta_guardado}")

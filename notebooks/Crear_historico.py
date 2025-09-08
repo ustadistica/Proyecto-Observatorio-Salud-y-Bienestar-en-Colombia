@@ -5,7 +5,7 @@ import runpy
 from pathlib import Path
 
 # === Configuración ===
-SCRIPT_PATH = Path(__file__).resolve().parent / "notebooks" / "descarga_preparacion.py"
+SCRIPT_PATH = Path(__file__).resolve().parent / "descarga_preparacion.py"
 OUT_CSV = Path("df_union_history.csv")          # archivo histórico en la misma carpeta
 KEY_COL = "id_fecha"                            # columna llave
 
