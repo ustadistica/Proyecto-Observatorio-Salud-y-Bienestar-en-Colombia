@@ -1,4 +1,3 @@
-!pip install sodapy
 
 from sodapy import Socrata
 import pandas as pd
