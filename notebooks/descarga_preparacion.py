@@ -47,7 +47,7 @@ print("\n✅ Descarga completa")
 print("Tamaño final:", df.shape)
 print(df.head())
 
-df.columns = ["Género","Grupo etario","Código de la entidad","Nombre de la entidad","Régimen","Tipo de afiliado","Estado del afiliado","Condición del beneficiario","Zona de Afiliación","Departamento","Municipio","Nivel del Sisbén","Cantidad de registros","tps_nvl_ssb_id","Fecha de actualización"]
+df.columns = ["Género","Grupo etario","Código de la entidad","Nombre de la entidad","Régimen","Tipo de afiliado","Estado del afiliado","Condición del beneficiario","Zona de Afiliación","Departamento","Municipio","tps_nvl_ssb_id","Nivel del Sisbén","Cantidad de registros","Fecha de actualización"]
 df.head(10)
 
 #############################################################################################################################################
