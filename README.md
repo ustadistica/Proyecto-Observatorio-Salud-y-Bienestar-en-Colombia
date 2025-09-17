@@ -14,6 +14,8 @@ La **Base de Datos Única de Afiliados (BDUA)** es la fuente oficial que consoli
 
 El uso de **datos abiertos** garantiza transparencia, trazabilidad y acceso universal a la información, lo cual fortalece la capacidad de investigación y permite que los hallazgos sean verificables y comparables en el tiempo.  
 
+- Igualmente algunos archivos pesados se van a manejar en la carpeta de onedrive adjunta a continuación. https://usantotomaseduco-my.sharepoint.com/:f:/g/personal/linarozoc_usantotomas_edu_co/EgbgSvlB3rdKsoWoshw5cDwBTOk20ncZTdjfFjLMUNVXwg?e=puIsOP
+
 Este proyecto, enmarcado en el **Observatorio de Salud y Bienestar**, busca aprovechar estas bases de datos para:  
 
 - Generar diagnósticos sobre cobertura y equidad en el sistema de salud.  
