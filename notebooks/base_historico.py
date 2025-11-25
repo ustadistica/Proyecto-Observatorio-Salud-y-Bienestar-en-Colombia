@@ -81,12 +81,14 @@ def main():
         print(f"📌 Columna: {col}")
         print(df_union[col].unique())
 
-    # devolver df_union si lo necesitas fuera
-    return df_union
-
-    salida = RAW / "df_union_historico.csv"
+    
+    # devolver df_union 
+    salida = raw_dir / "df_union_historico.csv"
     df_union.to_csv(salida, index=False)
     print(f"✅ df_union final guardado en: {salida}")
+
+    return df_union
+
 
 
 #  ejecuta main()
@@ -94,4 +96,5 @@ if __name__ == "__main__":
     main()
 
  
+
 
