@@ -13,9 +13,10 @@ def convert_csv_to_parquet():
 
     # 2. Listar TODOS los .csv de RAW, excepto df_cambios.csv
     csv_files = [
-        f for f in raw_dir.glob("*.csv")
-        if f.name != "df_cambios.csv"
+    f for f in raw_dir.glob("*.csv")
+    if f.name not in ("df_cambios.csv", "df_union_historico.csv")
     ]
+
 
     if not csv_files:
         print("No se encontraron archivos .csv para convertir")
@@ -35,4 +36,5 @@ def convert_csv_to_parquet():
 
 if __name__ == "__main__":
     convert_csv_to_parquet()
+
 
